@@ -1,3 +1,7 @@
+
+
 exports.run = function(input) {
-  console.log("Exercise #5");
+  var string = fileSystem.OpenTextFile(input);
+  
+  return string;
 };
